@@ -83,5 +83,5 @@ console.log(name.concat(" Jordan"));
 
 let name2 = "cactus";
 
-let result = name2.charAt(0)+(name2.slice(1)).replace(name2.charAt(0) , "*") //name2.charAt(0)
+let result = name2.charAt(0)+(name2.slice(1)).replaceAll(name2.charAt(0) , "*") //name2.charAt(0)
 console.log(result);
